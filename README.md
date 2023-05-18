@@ -20,6 +20,11 @@ Docker will do all the work for you
 ```bash
   docker-compose up
 ```
+Open browser at
+
+```bash
+  localhost:3000/
+```
 
 ### Задание
 
