@@ -1,0 +1,15 @@
+.header {
+  height: 50px;
+  width: 100%;
+  grid-column: 1 / 4;
+  background-color: #BFBFBF;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+}
+
+.header__title {
+  margin: 0 auto;
+  text-align: center;
+}

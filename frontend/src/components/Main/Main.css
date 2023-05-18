@@ -1,0 +1,11 @@
+.main {
+  margin: 0;
+  padding: 15px;
+  grid-column: 2 / 3;
+  height: calc(100vh - 180px);
+}
+
+.main__preloader {
+  color: #BFBFBF;
+  text-align: center;
+}

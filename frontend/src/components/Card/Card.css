@@ -1,0 +1,26 @@
+@keyframes animation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.card {
+  margin: 15px;
+  width: 150px;
+  height: 100px;
+  background-color: #BFBFBF;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: animation 0.3s forwards;
+}
+
+.card__title {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
